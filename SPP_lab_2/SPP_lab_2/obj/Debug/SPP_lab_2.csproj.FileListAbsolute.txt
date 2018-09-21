@@ -1,0 +1,7 @@
+C:\Users\zheny\source\repos\SPP\SPP_lab_2\SPP_lab_2\bin\Debug\SPP_lab_2.exe.config
+C:\Users\zheny\source\repos\SPP\SPP_lab_2\SPP_lab_2\bin\Debug\SPP_lab_2.exe
+C:\Users\zheny\source\repos\SPP\SPP_lab_2\SPP_lab_2\bin\Debug\SPP_lab_2.pdb
+C:\Users\zheny\source\repos\SPP\SPP_lab_2\SPP_lab_2\obj\Debug\SPP_lab_2.csprojAssemblyReference.cache
+C:\Users\zheny\source\repos\SPP\SPP_lab_2\SPP_lab_2\obj\Debug\SPP_lab_2.csproj.CoreCompileInputs.cache
+C:\Users\zheny\source\repos\SPP\SPP_lab_2\SPP_lab_2\obj\Debug\SPP_lab_2.exe
+C:\Users\zheny\source\repos\SPP\SPP_lab_2\SPP_lab_2\obj\Debug\SPP_lab_2.pdb
