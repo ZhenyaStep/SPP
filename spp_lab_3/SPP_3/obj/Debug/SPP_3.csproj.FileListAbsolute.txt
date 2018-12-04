@@ -1,0 +1,7 @@
+D:\work\labs\SPP_3\SPP_3\obj\Debug\SPP_3.csprojAssemblyReference.cache
+D:\work\labs\SPP_3\SPP_3\obj\Debug\SPP_3.csproj.CoreCompileInputs.cache
+D:\work\labs\SPP_3\SPP_3\bin\Debug\SPP_3.exe.config
+D:\work\labs\SPP_3\SPP_3\bin\Debug\SPP_3.exe
+D:\work\labs\SPP_3\SPP_3\bin\Debug\SPP_3.pdb
+D:\work\labs\SPP_3\SPP_3\obj\Debug\SPP_3.exe
+D:\work\labs\SPP_3\SPP_3\obj\Debug\SPP_3.pdb

@@ -87,22 +87,53 @@ namespace SPP_lab_5
 
     class Program
     {
-        static void doSmth()
+        static void doSmth1()
         {
-            Console.WriteLine("func 1, current proc id = " + Thread.CurrentThread.ManagedThreadId);
-            Thread.Sleep(100);
+            Thread.Sleep(1000);
+            Console.WriteLine("func 1 current proc id = " + Thread.CurrentThread.ManagedThreadId);
+            
         }
 
         static void doSmth2()
         {
-            Console.WriteLine("func2, current proc id = " + Thread.CurrentThread.ManagedThreadId);
             Thread.Sleep(100);
+            Console.WriteLine("func 2 current proc id = " + Thread.CurrentThread.ManagedThreadId);
+            
         }
+
+        static void doSmth3()
+        {
+            Thread.Sleep(300);
+            Console.WriteLine("func 3 current proc id = " + Thread.CurrentThread.ManagedThreadId);
+            
+        }
+
+        static void doSmth4()
+        {
+            Thread.Sleep(100);
+            Console.WriteLine("func 4 current proc id = " + Thread.CurrentThread.ManagedThreadId);
+            
+        }
+
+        static void doSmth5()
+        {
+            Thread.Sleep(600);
+            Console.WriteLine("func 5 current proc id = " + Thread.CurrentThread.ManagedThreadId);
+            
+        }
+
+        static void doSmth6()
+        {
+            Thread.Sleep(10);
+            Console.WriteLine("func 6 current proc id = " + Thread.CurrentThread.ManagedThreadId);
+            
+        }
+
 
         static void Main(string[] args)
         {
-            TaskDelegate[] tasks = { doSmth, doSmth2, doSmth, doSmth2, doSmth, doSmth2 };
-            ParallelWaiting.WaitAll(tasks, 2);
+            TaskDelegate[] tasks = { doSmth1, doSmth2, doSmth3, doSmth4, doSmth5, doSmth6 };
+            ParallelWaiting.WaitAll(tasks, 4);
 
             Console.ReadKey();
         }
